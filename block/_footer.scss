@@ -1,0 +1,88 @@
+.footer_wrapper{
+width: 1200px;
+height: 408px;
+margin: auto;
+display: flex;
+align-items: center;
+justify-content: center;
+}
+
+.footer{
+width: 1050px;
+height: 302px;
+margin: auto;
+display: flex;
+align-items: center;
+justify-content: space-between;
+
+&_setup{
+width: 138px;
+height: 302px;
+display: flex;
+flex-direction: column;
+align-items: center;
+justify-content: space-between;
+
+&_logo{
+width: 138px;
+height: 38px;
+}
+
+&_svg{
+width: 132px;
+height: 24px;
+display: flex;
+align-items: center;
+justify-content: space-between;
+
+&_X{
+width: 24px;
+height: 24px;
+fill: rgb(104, 104, 104);
+
+&:hover{
+fill: antiquewhite;
+}
+}
+}
+}
+
+&_list{
+width: 430px;
+height: 302px;
+display: flex;
+align-items: start;
+justify-content: space-between;
+
+&_div{
+width: 68px;
+display: flex;
+flex-direction: column;
+justify-content: space-between;
+
+&_title{
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 500;
+font-size: 13px;
+line-height: 26px;
+
+color: #FFFFFF;
+
+}
+
+&_text{
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 13px;
+line-height: 26px;
+
+color: rgba(255, 255, 255, 0.5);
+
+}
+}
+}
+}

@@ -1,0 +1,27 @@
+.trusted{
+width: 1200px;
+height: 390px;
+margin: auto;
+display: flex;
+flex-direction: column;
+align-items: center;
+justify-content: space-evenly;
+background: #000;
+
+&_text{
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 26px;
+
+color: rgba(255, 255, 255, 0.7);
+
+}
+
+&_img{
+width: 970px;
+height: 206px;
+}
+}

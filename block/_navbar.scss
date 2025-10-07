@@ -1,0 +1,138 @@
+.navbar{
+width: 1200px;
+height: 1165px;
+margin: auto;
+display: flex;
+flex-direction: column;
+align-items: center;
+background-image: url(../img/navbar-img.png);
+-webkit-box-shadow: 3px -32px 31px -2px rgba(0, 0, 0, 1) inset;
+-moz-box-shadow: 3px -32px 31px -2px rgba(0, 0, 0, 1) inset;
+box-shadow: 3px -32px 31px -2px rgba(0, 0, 0, 1) inset;
+
+&_title{
+width: 292px;
+height: 42px;
+display: flex;
+align-items: center;
+justify-content: space-evenly;
+border: 1px solid #1a011f;
+background: #000;
+border-radius: 30px;
+margin-top: 100px;
+
+&_div{
+width: 34px;
+height: 18px;
+background: #9855FF;
+display: flex;
+align-items: center;
+justify-content: center;
+border-radius: 30px;
+
+&_text{
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 700;
+font-size: 10px;
+line-height: 26px;
+
+letter-spacing: -0.0001em;
+
+color: #000000;
+
+}
+}
+
+&_text{
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 26px;
+
+letter-spacing: -0.0001em;
+
+color: #9855FF;
+
+}
+}
+
+&_bottom{
+width: 586px;
+height: 319px;
+display: flex;
+flex-direction: column;
+align-items: center;
+justify-content: space-between;
+margin-top: 20px;
+
+&_text1{
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 500;
+font-size: 82px;
+line-height: 84px;
+text-align: center;
+letter-spacing: -0.0506em;
+
+background: linear-gradient(180deg, #FFFFFF 54.17%, #B372CF 100%);
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+background-clip: text;
+text-fill-color: transparent;
+
+}
+
+&_text2{
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 20px;
+line-height: 31px;
+text-align: center;
+letter-spacing: -0.0001em;
+
+color: #FFFFFF;
+
+}
+
+&_btn{
+
+width: 121px;
+height: 41px;
+
+background: #FFFFFF;
+border-radius: 8px;
+border: none;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 500;
+font-size: 15px;
+line-height: 31px;
+letter-spacing: -0.0101em;
+
+color: #000000;
+transition: all ease 1s;
+
+&:hover{
+background: #6f00ff;
+color: #000000;
+transition: all ease 1s;
+}
+
+&:active{
+background: #000;
+color: #FFFFFF;
+border: 1px solid #FFFFFF;
+transition: all ease 1s;
+
+}
+}
+}
+}
