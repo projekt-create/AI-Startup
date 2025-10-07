@@ -884,4 +884,10 @@ body {
   font-size: 13px;
   line-height: 26px;
   color: rgba(255, 255, 255, 0.5);
+}
+
+@media only screen and (max-width: 500px) {
+  html {
+    zoom: 0, 25;
+  }
 }/*# sourceMappingURL=style.css.map */
