@@ -23,5 +23,32 @@ color: rgba(255, 255, 255, 0.7);
 &_img{
 width: 970px;
 height: 206px;
+
+&_mobile{
+display: none;
 }
+}
+}
+
+@media only screen and (max-width: 512px) {
+    .trusted{
+    width: 90%;
+    height: 568px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+
+    &_img{
+    display: none;
+
+    &_mobile{
+    width: 80%;
+    height: 400px;
+    display: flex;
+    }
+    }
+
+    
+    }
 }

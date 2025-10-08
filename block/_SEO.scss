@@ -88,3 +88,28 @@ color: rgba(255, 255, 255, 0.7);
 }
 }
 }
+
+@media only screen and (max-width: 512px) {
+    .seo{
+    width: 90%;
+    height: 1434px;
+    margin: auto;
+    margin-top: 800px;
+
+    &_header{
+    width: 90%;
+    &_text{
+        width: 90%;
+        font-size: 36px;
+    }
+    }
+
+    &_bottom{
+        width: 90%;
+        height: 1117px;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+    }
+    }
+}

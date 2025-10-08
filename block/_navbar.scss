@@ -136,3 +136,38 @@ transition: all ease 1s;
 }
 }
 }
+
+@media only screen and (max-width: 512px) {
+    .navbar{
+    width: 90%;
+    height: 800px;
+    background-image: url(../img/App\ &\ Mask.png);
+    background-repeat: no-repeat;
+
+    &_bottom{
+    width: 90%;
+
+    &_text1{
+    width: 100%;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 48px;
+    line-height: 52px;
+
+    background: linear-gradient(180deg, #FFFFFF 54.17%, #B372CF 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    text-fill-color: transparent;
+
+    }
+
+    &_text2{
+    width: 100%;
+    font-size: 20px;
+    }
+    }
+    }
+}

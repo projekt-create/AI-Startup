@@ -43,3 +43,33 @@ margin-left: 240px;
 
 
 }
+
+@media only screen and (max-width: 512px) {
+    .clients{
+    width: 90%;
+    height: 678px;
+
+    &_text1{
+        font-size: 34px;
+    }
+
+    &_text2{
+        width: 90%;
+        font-size: 26px;
+    }
+
+    &_img{
+        width: 100%;
+        height: 300px;
+        margin-bottom: 80px;
+    }
+
+    &_img2{
+        width: 70%;
+        height: 148px;
+        position: absolute;
+        margin-top: 620px;
+        margin-left: 10px;
+    }
+    }
+}

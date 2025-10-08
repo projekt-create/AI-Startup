@@ -214,3 +214,45 @@ color: rgba(255, 255, 255, 0.7);
 }
 }
 }
+
+@media only screen and (max-width: 512px) {
+    .search{
+    width: 90%;
+
+    &_text{
+    width: 90%;
+    font-size: 24px;
+    color: #FFFFFF;
+    }
+
+    &_div{
+    width: 90%;
+    height: 910px;
+    margin: 50px auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+
+    &_reight{
+    width: 90%;
+    }
+
+    &_left{
+    width: 90%;
+    }
+    }
+
+    &_div2{
+    width: 90%;
+    height: 910px;
+    margin: 50px auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+
+    &_left{
+    width: 90%;
+    }
+    }
+    }
+}

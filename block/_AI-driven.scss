@@ -111,3 +111,40 @@ color: rgba(255, 255, 255, 0.5);
 }
 }
 }
+
+@media only screen and (max-width: 512px) {
+    .driven_wrapper{
+        width: 100%;
+        margin-top: 1200px;
+    }
+
+    .driven{
+        width: 90%;
+
+        &_div{
+            width: 70%;
+
+            &_text{
+            width: 90%;
+            font-size: 30px;
+            }
+
+            &_input{
+            width: 90%;
+            }
+
+            &_btn{
+            width: 80px;
+            margin-top: 156px;
+            margin-left: 144px;
+            font-size: 10px;
+            }
+
+            &_info{
+            width: 100%;
+            font-size: 12px;
+            text-align: center;
+            }
+        }
+    }
+}
